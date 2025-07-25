@@ -1,0 +1,41 @@
+import { Meta, Canvas, Controls, Primary } from '@storybook/addon-docs/blocks';
+import * as InputStories from './Input.stories.ts';
+
+<Meta of={InputStories} />
+
+# Entrada de Texto (Text Input)
+
+Esse é o componente de Input, ele é utilizado para receber dados do usuário via texto.
+
+This is an Input component used to collect user data through text.
+
+### Primário (Primary)
+<Canvas of={InputStories.Primary} />
+
+### Primário Desabilitado (Disabled Primary)
+<Canvas of={InputStories.PrimaryDisabled} />
+
+### Multilinhas (Multiline)
+<Canvas of={InputStories.Multiline} />
+
+### Multilinhas Desabilitado (Disabled Multiline)
+<Canvas of={InputStories.MultilineDisabled} />
+
+### Primário com Rótulo (Primary with Label)
+<Canvas of={InputStories.PrimaryLabel} />
+
+### Primário Desabilitado com Rótulo (Disabled Primary with Label) 
+<Canvas of={InputStories.PrimaryLabelDisabled} />
+
+### Multilinhas com Rótulo (Multiline with Label)
+<Canvas of={InputStories.MultilineLabel} />
+
+### Multilinhas Desabilitado com Rótulo (Disabled Multiline with Label)
+<Canvas of={InputStories.MultilineLabelDisabled} />
+
+## Documentação Interativa (Interactive Documentation)
+
+### Teste (Try it out):
+
+<Primary />
+<Controls />
